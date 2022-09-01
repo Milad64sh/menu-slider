@@ -5,9 +5,117 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Menu Slider</title>
+    <script
+      src="https://kit.fontawesome.com/e8a1fdaed4.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Lnading Page</title>
   </head>
   <body>
+    <nav>
+      <div class="logo">
+        <img
+          src="https://randomuser.me/api/portraits/women/76.jpg"
+          alt="user"
+        />
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+    <header>
+      <button id="toggle" class="toggle">
+        <i class="fafa-bars fa-2x"></i>
+      </button>
+      <h1>My Landing Page</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+        reiciendis?
+      </p>
+      <button class="ctn-btn" id="open">Sign Up</button>
+    </header>
+    <div class="container">
+      <h2>What is this landing page about?</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quis
+        numquam porro repellat, ducimus eos repellendus dolore commodi dolorum
+        error? Atque, amet libero earum adipisci sequi praesentium obcaecati
+        esse consequatur.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, sint
+        impedit! Minus animi, deserunt amet a voluptatibus provident blanditiis
+        iure!
+      </p>
+      <h2>Tell Me More</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam
+        aperiam soluta error, ipsum eum aliquid dolor optio sint placeat, ullam
+        obcaecati mollitia similique neque. Fugit placeat quasi illum, ullam
+        ipsum dolorem accusantium molestiae alias omnis consequatur, rerum
+        debitis explicabo earum.
+      </p>
+      <h2>Benefits</h2>
+      <ul>
+        <li>Lifetime Access</li>
+        <li>30 Day Money Back</li>
+        <li>Tailored Customer Support</li>
+      </ul>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores
+        saepe fugit nulla consequuntur ipsam. Sed, tempora est necessitatibus
+        impedit, sit odit facilis, quo autem maxime possimus voluptas ipsa
+        eveniet hic perferendis alias voluptatem soluta obcaecati. Dolorum,
+        maxime! Possimus quasi, veniam sit impedit, necessitatibus dolore
+        reiciendis quos sunt, fuga soluta suscipit excepturi eligendi minus eius
+        sapiente libero ad aspernatur voluptatum vitae numquam amet ipsam
+        quaerat placeat? Suscipit minus fugit autem veritatis.
+      </p>
+    </div>
+    <!-- modal -->
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <button class="close-btn" id="close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Sign Up</h3>
+        </div>
+        <div class="modal-content">
+          <p>Register with us to get offers, support and more</p>
+          <form class="modal-form">
+            <div>
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Enter Name " />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Enter Email " />
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter Password"
+              />
+            </div>
+            <div>
+              <label for="password2">Confirm Password</label>
+              <input
+                type="password"
+                id="password2"
+                placeholder="Confirm Password"
+              />
+            </div>
+            <input type="submit" value="submit" class="submit-btn" />
+          </form>
+        </div>
+      </div>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
